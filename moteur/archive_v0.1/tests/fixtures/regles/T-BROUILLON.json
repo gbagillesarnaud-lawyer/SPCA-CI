@@ -1,0 +1,18 @@
+{
+  "id": "T-BR",
+  "version": 1,
+  "famille": "AUTRE",
+  "type": "minimum",
+  "validite": {
+    "debut": "2020-01-01"
+  },
+  "parametres": {},
+  "source": {
+    "texte": "TEXTE FICTIF — TEST UNIQUEMENT",
+    "article": "art. FICTIF",
+    "autorite": "SOLEX TEST",
+    "version_texte": "test",
+    "date_effet": "2020-01-01"
+  },
+  "statut": "brouillon"
+}

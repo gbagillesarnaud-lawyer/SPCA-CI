@@ -1,0 +1,45 @@
+{
+  "id": "T-ITS",
+  "version": 1,
+  "famille": "ITS",
+  "controle": "CT-F01",
+  "intitule": "Impôt FICTIF",
+  "type": "bareme_progressif",
+  "validite": {
+    "debut": "2020-01-01",
+    "fin": null
+  },
+  "assiette": {
+    "natures": [
+      "gain"
+    ],
+    "exclure": [
+      "TRANSP"
+    ]
+  },
+  "parametres": {
+    "tranches": [
+      {
+        "de": 0,
+        "a": 100000,
+        "taux": 0
+      },
+      {
+        "de": 100000,
+        "a": null,
+        "taux": 10
+      }
+    ]
+  },
+  "cible": {
+    "rubrique": "ITS"
+  },
+  "source": {
+    "texte": "TEXTE FICTIF — TEST UNIQUEMENT",
+    "article": "art. FICTIF",
+    "autorite": "SOLEX TEST",
+    "version_texte": "test",
+    "date_effet": "2020-01-01"
+  },
+  "statut": "validee"
+}

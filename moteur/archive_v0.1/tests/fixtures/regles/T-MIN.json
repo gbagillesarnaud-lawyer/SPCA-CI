@@ -1,0 +1,27 @@
+{
+  "id": "T-MIN",
+  "version": 1,
+  "famille": "MINIMUM",
+  "controle": "CT-J03",
+  "intitule": "Minimum FICTIF",
+  "type": "minimum",
+  "validite": {
+    "debut": "2020-01-01",
+    "fin": null
+  },
+  "parametres": {
+    "montant_minimum": 100000
+  },
+  "cible": {
+    "rubrique": "SB"
+  },
+  "criticite_si_ecart": "P1",
+  "source": {
+    "texte": "TEXTE FICTIF — TEST UNIQUEMENT",
+    "article": "art. FICTIF",
+    "autorite": "SOLEX TEST",
+    "version_texte": "test",
+    "date_effet": "2020-01-01"
+  },
+  "statut": "validee"
+}

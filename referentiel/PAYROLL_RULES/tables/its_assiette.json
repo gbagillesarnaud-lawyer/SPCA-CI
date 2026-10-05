@@ -1,0 +1,381 @@
+{
+  "table_id": "its_assiette",
+  "status": "validee",
+  "validation": {
+    "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable transmise le 2026-10-02",
+    "date": "2026-10-02",
+    "note": "Coefficients d'évaluation des avantages en nature (arrêté du 7 novembre 1996) non intégrés : valeur du bulletin utilisée, TAX-E005 si absente",
+    "arbitrages": [
+      "2026-10-02 — Indemnité de licenciement : seuil de négligence = SMIG mensuel (G. Arnaud)",
+      "2026-10-03 — Sources DGI rattachées composante par composante (doctrine fiscale 2022 et note AIN de 2024 transmises par G. Arnaud)",
+      "2026-10-03 — Transport ITS : 30 000 F/mois partout (note DGI n°01537 du 4 mai 2022) ; le plafond par localité reste appliqué à la CNPS (G. Arnaud)"
+    ]
+  },
+  "legal_source": "CGI art. 116 et 118 ; ordonnance n°2023-719 ; doctrine fiscale DGI 2022 (notes n°01222, 01224, 01536, 01537, 01592) ; note DGI n°00026 du 3 janvier 2024 ; note DGI n°016 du 1er juillet 2024 ; note DGI de 2024 sur les avantages en nature",
+  "effective_from": "2024-01-01",
+  "types": {
+    "base_salary": {
+      "treatment": "inclus"
+    },
+    "sursalaire": {
+      "treatment": "inclus"
+    },
+    "seniority_bonus": {
+      "treatment": "inclus"
+    },
+    "yield_bonus": {
+      "treatment": "inclus"
+    },
+    "performance_bonus": {
+      "treatment": "inclus"
+    },
+    "productivity_bonus": {
+      "treatment": "inclus"
+    },
+    "responsibility_bonus": {
+      "treatment": "inclus"
+    },
+    "function_bonus": {
+      "treatment": "inclus"
+    },
+    "bonus": {
+      "treatment": "inclus"
+    },
+    "commission": {
+      "treatment": "inclus"
+    },
+    "year_end_bonus": {
+      "treatment": "inclus"
+    },
+    "thirteenth_month": {
+      "treatment": "inclus"
+    },
+    "overtime_15": {
+      "treatment": "inclus"
+    },
+    "overtime_50": {
+      "treatment": "inclus"
+    },
+    "overtime_night": {
+      "treatment": "inclus"
+    },
+    "overtime_sunday_day": {
+      "treatment": "inclus"
+    },
+    "overtime_sunday_night": {
+      "treatment": "inclus"
+    },
+    "night_premium": {
+      "treatment": "inclus"
+    },
+    "sunday_premium": {
+      "treatment": "inclus"
+    },
+    "leave_allowance": {
+      "treatment": "inclus"
+    },
+    "expatriation_allowance": {
+      "treatment": "inclus"
+    },
+    "remoteness_allowance": {
+      "treatment": "inclus"
+    },
+    "housing_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "vehicle_benefit": {
+      "treatment": "inclus"
+    },
+    "food_benefit": {
+      "treatment": "exclu_plafonne",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (nourriture fournie gratuitement : exonérée dans la limite de 30 000 F/mois)",
+      "cap": "ITS_EXO_RESTAURATION",
+      "code_if_exceeded": "TAX-E009",
+      "motif": "nourriture fournie gratuitement"
+    },
+    "utilities_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "exceptional_bonus": {
+      "treatment": "inclus",
+      "motif": "imposable par défaut (CI-TAX-017)"
+    },
+    "expense_reimbursement": {
+      "treatment": "frais_reels",
+      "motif": "remboursement de frais réels — justificatif requis"
+    },
+    "mission_expenses": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "travel_allowance": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "business_travel": {
+      "treatment": "frais_reels",
+      "motif": "billets/voyages professionnels remboursés — justificatif requis"
+    },
+    "family_allowance": {
+      "treatment": "exclu",
+      "motif": "allocation familiale légale (CI-TAX-FAMILY-001)",
+      "hors_reference_10pct": true,
+      "source": "Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §3.2"
+    },
+    "damages": {
+      "treatment": "exclu",
+      "motif": "dommages-intérêts réparant un préjudice",
+      "human_gate": true,
+      "human_gate_reason": "Human Gate obligatoire — preuve du préjudice (TAX-E011)",
+      "requires_justification": "TAX-E011",
+      "source": "Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.2 (dommages-intérêts, départ négocié, transaction : non imposables si les indemnités légales ne sont pas sous-évaluées)"
+    },
+    "panier_bonus": {
+      "treatment": "inclus",
+      "motif": "imposable (note DGI n°01592, §2.2)",
+      "source": "CGI art. 118 ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §2.2 : l'indemnité de panier couvre des frais incombant au salarié → imposable"
+    },
+    "dirt_allowance": {
+      "treatment": "inclus",
+      "motif": "imposable (note DGI n°01592, §2.2)",
+      "source": "CGI art. 118 ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §2.2 : l'indemnité de salissure couvre des frais incombant au salarié → imposable"
+    },
+    "work_clothes_allowance": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "tool_allowance": {
+      "treatment": "a_qualifier",
+      "motif": "plafond d'exonération fiscale non paramétré (règle CNPS non transposable d'office)"
+    },
+    "transport_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "ITS_EXO_TRANSPORT",
+      "hors_reference_10pct": true,
+      "code_if_exceeded": "TAX-E008",
+      "source": "CGI art. 116-10° ; arrêté n°2020-012/MEPS/CAB ; Note DGI n°01537/MBPE/DGI-DLCD du 4 mai 2022 — prime de transport (doctrine fiscale 2022, p. 83-84) ; note DGI n°016/MFB/DGI-DLCD du 1er juillet 2024",
+      "motif": "prime de transport exonérée dans la limite de 30 000 F/mois, quelle que soit la localité (note DGI n°01537)"
+    },
+    "notice_indemnity": {
+      "treatment": "inclus",
+      "source": "Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.1 (indemnité de préavis imposable en totalité)"
+    },
+    "severance_pay": {
+      "treatment": "formule",
+      "taxable": "0 if A <= SMIG_M else A * ITS_INDEMNITE_RUPTURE_FRACTION / 100",
+      "motif": "indemnité de licenciement : négligée si ≤ SMIG (tolérance administrative), sinon imposable pour moitié",
+      "human_gate": true,
+      "human_gate_reason": "qualification de l'indemnité de rupture (TAX-E010)",
+      "source": "CGI art. 118 ; Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.2 et 2.1.3",
+      "employer_override": {
+        "treatment": "inclus",
+        "motif": "contributions employeurs : allègements non applicables (note DGI n°01224, §2.2)"
+      }
+    },
+    "retirement_pay": {
+      "treatment": "formule",
+      "taxable": "0 if A <= SMIG_M else A * ITS_INDEMNITE_RUPTURE_FRACTION / 100",
+      "motif": "indemnité de départ à la retraite : mêmes conditions que l'indemnité de licenciement (négligée ≤ SMIG, sinon moitié)",
+      "human_gate": true,
+      "human_gate_reason": "qualification de l'indemnité de départ (TAX-E010)",
+      "source": "CGI art. 118 ; Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.1 (« imposable dans les mêmes conditions que l'indemnité de licenciement ») et §2.1.3",
+      "employer_override": {
+        "treatment": "inclus",
+        "motif": "contributions employeurs : allègements non applicables (note DGI n°01224, §2.2)"
+      }
+    },
+    "leave_compensation": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "equipment_allowance": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "salary_recall": {
+      "treatment": "inclus"
+    },
+    "objective_bonus": {
+      "treatment": "inclus"
+    },
+    "risk_bonus": {
+      "treatment": "inclus"
+    },
+    "hardship_bonus": {
+      "treatment": "inclus"
+    },
+    "housing_allowance": {
+      "treatment": "inclus"
+    },
+    "phone_allowance": {
+      "treatment": "inclus",
+      "motif": "imposable par défaut (CI-TAX-019) — sauf frais professionnels prouvés",
+      "human_gate": false
+    },
+    "furniture_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "aircon_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "pool_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "domestic_staff_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118-2 ; arrêté n°1028 MEF-DGI-DGA-SLCD du 7 novembre 1996 (évaluation forfaitaire — barème non fourni) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1"
+    },
+    "hotel_benefit": {
+      "treatment": "inclus",
+      "source": "Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.1 (coût réel du logement temporaire à l'hôtel)"
+    },
+    "home_phone_internet_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (valeur réelle)"
+    },
+    "home_security_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (valeur réelle)"
+    },
+    "rental_works_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (valeur réelle)"
+    },
+    "employer_product_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (valeur réelle)"
+    },
+    "discount_benefit": {
+      "treatment": "inclus",
+      "source": "CGI art. 118 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 (valeur réelle)"
+    },
+    "mileage_allowance": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "representation_allowance": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "mission_lodging": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "mission_meals": {
+      "treatment": "frais_emploi",
+      "motif": "allocation spéciale pour frais d'emploi (CGI art. 116) — justificatif requis, limite globale 10 %",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)"
+    },
+    "family_allowance_conventional": {
+      "treatment": "a_qualifier",
+      "motif": "allocation d'assistance familiale sans texte légal — imposable sauf base légale",
+      "human_gate": true,
+      "source": "Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §3.2 (allocation d'assistance familiale exonérée seulement si prévue par un texte légal)"
+    },
+    "collective_transport_benefit": {
+      "treatment": "exclu_plafonne",
+      "cap": "ITS_EXO_TRANSPORT_COLLECTIF",
+      "code_if_exceeded": "TAX-E008",
+      "hors_reference_10pct": true,
+      "motif": "coût du transport collectif / bénéficiaires",
+      "source": "CGI art. 116-16° ; arrêté n°2020-012/MEPS/CAB ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §1.3 ; Note DGI n°01537/MBPE/DGI-DLCD du 4 mai 2022 — prime de transport (doctrine fiscale 2022, p. 83-84)"
+    },
+    "meal_benefit": {
+      "treatment": "exclu_plafonne",
+      "cap": "ITS_EXO_RESTAURATION",
+      "code_if_exceeded": "TAX-E009",
+      "motif": "restauration — contrat prestataire requis si service extérieur",
+      "source": "CGI art. 116-17° ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §2.2 ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §2.2",
+      "human_gate": true,
+      "human_gate_reason": "restauration hors cantine : exonération subordonnée au contrat avec le prestataire et à la preuve des dépenses (note DGI n°01536, §2.2)"
+    },
+    "function_vehicle": {
+      "treatment": "exclu",
+      "motif": "véhicule de fonction / de service (doctrine DGI)",
+      "human_gate": true,
+      "human_gate_reason": "vérifier l'absence d'usage personnel",
+      "source": "Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §1.2"
+    },
+    "on_call_housing": {
+      "treatment": "a_qualifier",
+      "motif": "logement d'astreinte — nécessité de service à établir",
+      "human_gate": true,
+      "source": "Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §1.2 (exonéré si le logement ne constitue pas le domicile personnel)"
+    },
+    "leave_travel": {
+      "treatment": "conditionnel",
+      "condition": "expatriate == True",
+      "si_vrai": {
+        "treatment": "exclu",
+        "motif": "voyage de congé de l'expatrié (coût de recrutement)"
+      },
+      "si_faux": {
+        "treatment": "inclus",
+        "motif": "voyage de congé du salarié local"
+      },
+      "source": "Note DGI n°01222/MBPE/DGI-DLCD du 12 avril 2022 (doctrine fiscale 2022, p. 75) ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») §1.2 et 2.2"
+    },
+    "apprenticeship_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "ITS_EXO_APPRENTISSAGE if apprenticeship_months <= 24 else 0",
+      "source": "Matrice SOLEX — source primaire non fournie (absente de la doctrine fiscale 2022)"
+    },
+    "complementary_pension_employer": {
+      "treatment": "retraite_comp",
+      "motif": "double limite 10 % / 320 000",
+      "source": "Note DGI n°00026 du 3 janvier 2024, §III"
+    },
+    "funeral_relief": {
+      "treatment": "exclu",
+      "motif": "secours au décès",
+      "human_gate": true,
+      "human_gate_reason": "vérifier le caractère de véritable secours",
+      "source": "Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.2 (véritable secours)"
+    },
+    "health_benefit": {
+      "treatment": "a_qualifier",
+      "motif": "dépense de santé — catégorie exonérée à vérifier",
+      "human_gate": true,
+      "source": "Matrice SOLEX — source primaire non fournie (absente de la doctrine fiscale 2022)"
+    }
+  },
+  "global_rules": {
+    "frais_emploi": {
+      "rate": "ITS_FRAIS_EMPLOI_TAUX",
+      "reserve": "Limite des frais d'emploi calculée sur la rémunération en numéraire, hors allocations familiales, transport exonéré et transport collectif",
+      "source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88) §3"
+    },
+    "retraite_comp": {
+      "rate": "ITS_RETRAITE_COMP_TAUX",
+      "cap": "ITS_RETRAITE_COMP_PLAFOND"
+    }
+  },
+  "error_codes": {
+    "TAX-E001": "COMPOSANTE NON QUALIFIÉE",
+    "TAX-E002": "EXONÉRATION SANS SOURCE",
+    "TAX-E003": "EXONÉRATION SANS JUSTIFICATIF",
+    "TAX-E004": "PLAFOND D'EXONÉRATION DÉPASSÉ",
+    "TAX-E005": "AVANTAGE EN NATURE NON VALORISÉ",
+    "TAX-E006": "FRAIS PROFESSIONNELS NON JUSTIFIÉS",
+    "TAX-E007": "DOUBLE REMBOURSEMENT DE FRAIS",
+    "TAX-E008": "PRIME TRANSPORT EXONÉRÉE AU-DELÀ DU PLAFOND",
+    "TAX-E009": "RESTAURATION EXONÉRÉE AU-DELÀ DU PLAFOND",
+    "TAX-E010": "INDEMNITÉ DE RUPTURE MAL QUALIFIÉE",
+    "TAX-E011": "DOMMAGES-INTÉRÊTS SANS PREUVE DU PRÉJUDICE",
+    "TAX-E012": "RÈGLE FISCALE HORS PÉRIODE",
+    "TAX-E013": "COTISATION SOCIALE DÉDUITE À TORT DU RBI",
+    "TAX-E014": "AIN REMBOURSÉ PAR SALARIÉ NON NETTÉ",
+    "TAX-E015": "DÉPASSEMENT LIMITE 10 % FRAIS D'EMPLOI"
+  }
+}

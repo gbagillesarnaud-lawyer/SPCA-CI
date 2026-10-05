@@ -1,0 +1,50 @@
+{
+  "rule_id": "CI-CNPS-ATMP-COT-001",
+  "version": 1,
+  "name": "CNPS AT/MP — patronal",
+  "control_id": "C05",
+  "order": 16,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "2023-01-01",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "True",
+  "expected": "plafonner(assiette_cnps(), 'CNPS_AUTRES_PLAFOND') * atmp_rate / 100",
+  "legal_source": "Code de prévoyance sociale, art. 23 ; taux et plafonds CNPS (matrice SOLEX)",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+    "date": "2026-10-02",
+    "note": "Contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "prerequisite": "atmp_rate >= CNPS_ATMP_RATE_MIN and atmp_rate <= CNPS_ATMP_RATE_MAX",
+  "prerequisite_message": "Taux AT/MP déclaré hors de la fourchette 2 %–5 %",
+  "prerequisite_flag": "HUM-010",
+  "observed": "employer('cnps_atmp_employer')",
+  "compare": "equal",
+  "severity_if_breach": "P2",
+  "impact_type": "cnps_patronal",
+  "recommendation": "Vérifier le taux AT/MP notifié et régulariser",
+  "historique": [
+    {
+      "date": "2026-10-02",
+      "motif": "plafond unique « autres branches » (paramètre SOLEX)"
+    }
+  ],
+  "country": "Côte d'Ivoire",
+  "regime": "CNPS",
+  "branch": "Accidents du travail / maladies professionnelles",
+  "error_code": "PAY-002",
+  "evidence_required": [
+    "bulletin",
+    "état des cotisations / déclaration CNPS"
+  ],
+  "last_legal_review": "2026-10-02"
+}

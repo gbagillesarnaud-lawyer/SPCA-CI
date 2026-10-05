@@ -1,0 +1,84 @@
+{
+  "_note": "Configuration permanente SPCA-CI (Registre des inputs, catégorie X). Aucune valeur juridique ici.",
+  "agent_name": "SOLEX PAYROLL COMPLIANCE AUDITOR — CI",
+  "jurisdiction": "Côte d'Ivoire",
+  "mode": "AUDIT",
+  "language": "fr",
+  "agent_version": "0.2.0",
+  "ruleset_version": "CI-PAYROLL-2026.1",
+  "confidence_high": 0.9,
+  "confidence_medium": 0.7,
+  "human_gate_p1": true,
+  "human_gate_p2": true,
+  "source_citation_required": true,
+  "calculation_trace_required": true,
+  "allow_client_send": false,
+  "allow_payroll_modification": false,
+  "allow_external_declaration": false,
+  "tolerance_fcfa": 1,
+  "intrinsic_severity": {
+    "line": "P3",
+    "gross": "P2",
+    "net": "P2",
+    "contract": "P2",
+    "assiette_cnps": "P1"
+  },
+  "required_families": {
+    "C01": [
+      1,
+      "SMIG / minimum"
+    ],
+    "C05": [
+      16,
+      "CNPS"
+    ],
+    "C06": [
+      17,
+      "CMU"
+    ],
+    "C07": [
+      18,
+      "Fiscalité / ITS"
+    ],
+    "C10": [
+      19,
+      "Mentions obligatoires du bulletin"
+    ]
+  },
+  "net_components": [
+    "cnps_employee",
+    "cmu_employee",
+    "its"
+  ],
+  "risk": {
+    "financial_impact_upgrade_fcfa": null
+  },
+  "compliance_score": {
+    "method": "Méthode provisoire VALIDÉE par SOLEX (G. Arnaud, 2026-10-02) : Score (%) = Σ(w_i × c_i) / Σ w_i × 100, c_i ∈ {0,1} conformité de la règle i parmi les contrôles conclusifs, w_i ∈ {1,2,3,4} selon la gravité (P1=4, P2=3, P3=2, P4=1). Statut « provisoire » maintenu pour ajuster les seuils 95/80/60 %. Indicateur interne, non légal.",
+    "validation": {"by": "Gilles Arnaud (CEO SOLEX)", "date": "2026-10-02", "document": "Validation de la méthode de calcul du score de conformité.jpeg", "status": "provisoire_validee"},
+    "weights": {
+      "P1": 4,
+      "P2": 3,
+      "P3": 2,
+      "P4": 1
+    },
+    "bands": [
+      [
+        95,
+        "Conforme"
+      ],
+      [
+        80,
+        "Conforme sous réserve"
+      ],
+      [
+        60,
+        "Non-conformités significatives"
+      ],
+      [
+        0,
+        "Risque social élevé"
+      ]
+    ]
+  }
+}

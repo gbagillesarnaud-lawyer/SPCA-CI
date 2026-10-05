@@ -1,0 +1,33 @@
+{
+  "rule_id": "CI-PAY-HS-050",
+  "version": 1,
+  "name": "Heures supplémentaires au-delà de la 46e heure (+50 %)",
+  "control_id": "C03",
+  "order": 12,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "2025-02-07",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "present('overtime_50')",
+  "expected": "base_salary / MONTHLY_HOURS * 150 / 100 * qty('overtime_50')",
+  "legal_source": "Décret n°2024-898 du 16 octobre 2024 relatif à la durée du travail",
+  "article": null,
+  "authority": null,
+  "source_url": "https://agp.africanlii.org/fr/akn/ci/act/decree/2024/898/fra@2025-03-21",
+  "last_verified": "2026-09-30",
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('overtime_50')",
+  "compare": "at_least",
+  "severity_if_breach": "P2",
+  "impact_type": "rappel_salarie",
+  "reserve": "Taux horaire = salaire de base / durée mensuelle du régime ; intégration d'autres éléments dans la base horaire à confirmer. Entrée en vigueur du décret : 7 février 2025 (publication JO n°10 du 3 février 2025).",
+  "recommendation": "Rappel de majoration d'heures supplémentaires"
+}

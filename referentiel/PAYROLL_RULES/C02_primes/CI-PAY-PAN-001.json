@@ -1,0 +1,32 @@
+{
+  "rule_id": "CI-PAY-PAN-001",
+  "version": 1,
+  "name": "Prime de panier",
+  "control_id": "C02",
+  "order": 7,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "1977-07-19",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "present('panier_bonus')",
+  "expected": "3 * SMIG_H * qty('panier_bonus')",
+  "legal_source": "Convention Collective Interprofessionnelle du 19 juillet 1977 ; CNPS (limite 3 × SMIG horaire)",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('panier_bonus')",
+  "compare": "at_least",
+  "severity_if_breach": "P3",
+  "impact_type": "rappel_salarie",
+  "recommendation": "Aligner la prime sur 3 × SMIG horaire par situation ouvrant droit"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "T-CMU",
+  "version": 1,
+  "famille": "CMU",
+  "controle": "CT-S02",
+  "intitule": "Montant forfaitaire FICTIF",
+  "type": "taux_sur_assiette",
+  "validite": {
+    "debut": "2020-01-01",
+    "fin": null
+  },
+  "assiette": {
+    "rubriques": [
+      "SB"
+    ]
+  },
+  "parametres": {
+    "taux_salarial": 1
+  },
+  "cible": {
+    "rubrique": "CMU"
+  },
+  "source": {
+    "texte": "TEXTE FICTIF — TEST UNIQUEMENT",
+    "article": "art. FICTIF",
+    "autorite": "SOLEX TEST",
+    "version_texte": "test",
+    "date_effet": "2020-01-01"
+  },
+  "statut": "validee"
+}

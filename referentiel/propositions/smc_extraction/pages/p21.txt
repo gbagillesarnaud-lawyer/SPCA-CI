@@ -1,0 +1,54 @@
+Barème des salaires minima catégoriels conventionnels
+Actualisation 2023 – Arrêté n° 0050/MEPS/CAB du 19 mai 2023
+SOLEX SAS – « Sécuriser aujourd'hui. Garantir demain. » Page 21 | 81
+ 
+OUVRIERS 
+Catégorie Horaire 2023 HS +15 % HS +50 % HS +75 % HS +100 %
+1 433 498 650 758 866 
+2 433 498 650 758 866 
+3A 434 500 651 760 868 
+3B 439 505 659 769 878 
+4A 440 506 660 770 880 
+4B 451 519 677 790 902 
+5A 456 525 684 798 912 
+5B 487 561 731 853 974 
+6A 500 575 750 875 1000 
+6B 557 641 836 975 1114 
+7 642 739 963 1124 1284 
+ 
+INGÉNIEURS, CADRES ET ASSIMILÉS – AGRO-INDUSTRIE (réf. barème 2015 : p. 37)
+Catégories des conventions collectives Salaire de base 2015 Salaire de base 2023
+Position 1A 150 124 166 638 
+Position 1B 172 821 191 831 
+Position 2A 181 516 201 483 
+Position 2B 206 001 228 662 
+Position 3A 214 140 237 696 
+Position 3B 321 144 356 471 
+CHAUFFEURS (réf. barème 2015 : p. 37)
+Catégorie Définition Mensuel 2015 (173,33 h) Mensuel 2023 (173,33 h) Horaire 2023
+A
+Véhicule de tourisme, 
+petit tracteur, < 3 T 68 264 75 773 438 
+B
+Poids lourd de 3 T à 5 T 
+de charge utile 71 771 79 667 460 
+C
+Poids lourd > 5 T ou 
+tracteur semi-remorque
+74 382 82 564 477 
+D
+Véhicule de transport en 
+commun
+74 927 83 170 480 
+EMPLOYÉS (réf. barème 2015 : p. 38)
+Catégorie Mensuel 2015 Mensuel 2023 Horaire 2023 HS +15 % HS +50 % HS +75 % HS +100 %
+1 (SMIG) 60 000 75 000 433 498 650 758 866 
+2 73 553 81 674 472 543 708 826 944 
+3 74 745 82 997 479 551 719 838 958 
+4 80 166 89 016 514 591 771 900 1028 
+5 95 630 106 188 613 705 920 1073 1226 
+6 108 383 120 349 695 799 1043 1216 1390 
+7A 109 518 121 609 702 807 1053 1229 1404 
+7B 117 630 130 615 754 867 1131 1320 1508 
+Mesure exceptionnelle de l'arrêté pour les ouvriers (maintien des écarts des catégories 2 à 5A avec abattement de 50 %) : non modélisable 
+faute de grille ouvriers dans le barème 2015.

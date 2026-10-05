@@ -1,0 +1,42 @@
+{
+  "rule_id": "CI-CNPS-RET-SAL-001",
+  "version": 1,
+  "name": "CNPS retraite — part salariale",
+  "control_id": "C05",
+  "order": 16,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "2023-01-01",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "True",
+  "expected": "plafonner(plancher(assiette_cnps(), 'CNPS_RET_PLANCHER'), 'CNPS_RET_PLAFOND') * CNPS_RET_SAL_RATE / 100",
+  "legal_source": "Code de prévoyance sociale, art. 23 ; taux et plafonds CNPS (matrice SOLEX)",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+    "date": "2026-10-02",
+    "note": "Contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount(['cnps_retirement_employee', 'cnps_employee_total'])",
+  "compare": "equal",
+  "severity_if_breach": "P2",
+  "impact_type": "cnps",
+  "net_component": "cnps_employee",
+  "recommendation": "Régulariser la cotisation retraite salariale",
+  "country": "Côte d'Ivoire",
+  "regime": "CNPS",
+  "branch": "Assurance vieillesse",
+  "error_code": "PAY-002",
+  "evidence_required": [
+    "bulletin",
+    "état des cotisations / déclaration CNPS"
+  ],
+  "last_legal_review": "2026-10-02"
+}

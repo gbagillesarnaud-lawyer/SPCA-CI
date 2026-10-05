@@ -1,0 +1,161 @@
+{
+  "table_id": "cnps_assiette",
+  "status": "validee",
+  "validation": {
+    "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+    "date": "2026-10-02",
+    "note": "Contre-validation par le juriste référent recommandée"
+  },
+  "legal_source": "Code de prévoyance sociale, art. 23 ; règles publiées par la CNPS (matrice SOLEX §2–3)",
+  "effective_from": "2023-01-01",
+  "types": {
+    "base_salary": {
+      "treatment": "inclus"
+    },
+    "sursalaire": {
+      "treatment": "inclus"
+    },
+    "seniority_bonus": {
+      "treatment": "inclus"
+    },
+    "yield_bonus": {
+      "treatment": "inclus"
+    },
+    "performance_bonus": {
+      "treatment": "inclus"
+    },
+    "productivity_bonus": {
+      "treatment": "inclus"
+    },
+    "responsibility_bonus": {
+      "treatment": "inclus"
+    },
+    "function_bonus": {
+      "treatment": "inclus"
+    },
+    "bonus": {
+      "treatment": "inclus"
+    },
+    "commission": {
+      "treatment": "inclus"
+    },
+    "year_end_bonus": {
+      "treatment": "inclus"
+    },
+    "thirteenth_month": {
+      "treatment": "inclus"
+    },
+    "overtime_15": {
+      "treatment": "inclus"
+    },
+    "overtime_50": {
+      "treatment": "inclus"
+    },
+    "overtime_night": {
+      "treatment": "inclus"
+    },
+    "overtime_sunday_day": {
+      "treatment": "inclus"
+    },
+    "overtime_sunday_night": {
+      "treatment": "inclus"
+    },
+    "night_premium": {
+      "treatment": "inclus"
+    },
+    "sunday_premium": {
+      "treatment": "inclus"
+    },
+    "leave_allowance": {
+      "treatment": "inclus"
+    },
+    "expatriation_allowance": {
+      "treatment": "inclus"
+    },
+    "remoteness_allowance": {
+      "treatment": "inclus"
+    },
+    "housing_benefit": {
+      "treatment": "inclus"
+    },
+    "vehicle_benefit": {
+      "treatment": "inclus"
+    },
+    "food_benefit": {
+      "treatment": "inclus"
+    },
+    "utilities_benefit": {
+      "treatment": "inclus"
+    },
+    "exceptional_bonus": {
+      "treatment": "inclus",
+      "motif": "en principe soumise, sauf qualification légale contraire"
+    },
+    "expense_reimbursement": {
+      "treatment": "exclu",
+      "motif": "remboursement de frais professionnels justifiés"
+    },
+    "mission_expenses": {
+      "treatment": "exclu",
+      "motif": "frais de mission justifiés"
+    },
+    "travel_allowance": {
+      "treatment": "exclu",
+      "motif": "indemnité de déplacement / mission (frais)"
+    },
+    "business_travel": {
+      "treatment": "exclu",
+      "motif": "billets/voyages professionnels"
+    },
+    "family_allowance": {
+      "treatment": "exclu",
+      "motif": "allocations familiales légales"
+    },
+    "damages": {
+      "treatment": "exclu",
+      "motif": "dommages-intérêts (réparation)"
+    },
+    "panier_bonus": {
+      "treatment": "exclu_plafonne",
+      "cap": "3 * SMIG_H * qty('panier_bonus')"
+    },
+    "dirt_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "13 * SMIG_H"
+    },
+    "work_clothes_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "7 * SMIG_H"
+    },
+    "tool_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "10 * SMIG_H"
+    },
+    "transport_allowance": {
+      "treatment": "exclu_plafonne",
+      "cap": "(TRANSPORT_EXO_ABIDJAN if contient(locality, 'ABIDJAN') else (TRANSPORT_EXO_BOUAKE if contient(locality, 'BOUAKE') else TRANSPORT_EXO_AUTRES)) if locality_known else TRANSPORT_EXO_DEFAUT",
+      "reserve_if_false": "locality_known",
+      "reserve_text": "Localité d'emploi non renseignée : plafond d'exonération transport par défaut (30 000 FCFA, arbitrage SOLEX) appliqué"
+    },
+    "notice_indemnity": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "severance_pay": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "retirement_pay": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "leave_compensation": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    },
+    "equipment_allowance": {
+      "treatment": "a_qualifier",
+      "motif": "régime spécifique — qualification juridique préalable"
+    }
+  }
+}

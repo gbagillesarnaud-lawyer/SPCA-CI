@@ -1,0 +1,19 @@
+[
+  {
+    "param_id": "MONTHLY_HOURS_NON_AGRICOLE",
+    "value": 173.33,
+    "unit": "heures/mois",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "Rules Registry SOLEX §I — durée mensuelle conventionnelle (40 h/semaine)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+      "date": "2026-09-30",
+      "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+    },
+    "note": "Date d'effet alignée sur le SMIG en vigueur ; antériorité à renseigner par SOLEX"
+  }
+]

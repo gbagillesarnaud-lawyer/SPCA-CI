@@ -1,0 +1,14 @@
+[
+  {
+    "param_id": "MONTHLY_HOURS_AGRICOLE",
+    "value": 208,
+    "unit": "heures/mois",
+    "effective_from": "2025-02-07",
+    "effective_to": null,
+    "legal_source": "Décret n°2024-898 art. 2 : 48 h/semaine (48 × 52 / 12)",
+    "article": null,
+    "source_url": null,
+    "status": "a_valider",
+    "validation": null
+  }
+]

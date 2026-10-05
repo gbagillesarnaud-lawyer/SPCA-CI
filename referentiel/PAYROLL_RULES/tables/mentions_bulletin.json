@@ -1,0 +1,109 @@
+{
+  "table_id": "mentions_bulletin",
+  "status": "validee",
+  "validation": {
+    "by": "Gilles Arnaud (CEO SOLEX)",
+    "date": "2026-10-02",
+    "note": "Article 46 de la CCI transmis et vérifié dans CCI_1977_SOLEX.pdf"
+  },
+  "rule_id": "CI-PAY-MENTIONS-001",
+  "version": 1,
+  "legal_source": "Convention collective interprofessionnelle du 19 juillet 1977 et Code du travail (loi n°2015-532)",
+  "article": "46 (CCI), 32.5 (CT)",
+  "effective_from": "1977-07-19",
+  "error_code": "MENT-001",
+  "default_severity": "P4",
+  "mentions": [
+    {
+      "key": "employee_name",
+      "n": "1°",
+      "label": "Nom et prénoms du salarié",
+      "condition": "True"
+    },
+    {
+      "key": "employer_name_address",
+      "n": "2°",
+      "label": "Nom ou raison sociale et adresse de l'employeur",
+      "condition": "True"
+    },
+    {
+      "key": "employee_registration_number",
+      "n": "3°",
+      "label": "Numéro d'immatriculation du salarié (registre d'employeur)",
+      "condition": "True"
+    },
+    {
+      "key": "payment_date",
+      "n": "4°",
+      "label": "Date de paiement",
+      "condition": "True"
+    },
+    {
+      "key": "pay_period",
+      "n": "5°",
+      "label": "Période pour laquelle la paye est effectuée",
+      "condition": "True"
+    },
+    {
+      "key": "classification",
+      "n": "6°",
+      "label": "Classement dans la classification professionnelle",
+      "condition": "True"
+    },
+    {
+      "key": "salary_cash",
+      "n": "7°",
+      "label": "Montant du salaire en espèces",
+      "condition": "True"
+    },
+    {
+      "key": "salary_in_kind",
+      "n": "7°",
+      "label": "Montant du salaire en nature",
+      "condition": "has_nature('avantage_nature')"
+    },
+    {
+      "key": "bonuses_allowances",
+      "n": "8°",
+      "label": "Primes et indemnités",
+      "condition": "has_array('bonuses') or has_array('allowances')"
+    },
+    {
+      "key": "overtime",
+      "n": "9°",
+      "label": "Heures supplémentaires",
+      "condition": "has_array('overtime')"
+    },
+    {
+      "key": "deductions",
+      "n": "10°",
+      "label": "Différentes retenues",
+      "condition": "has_nature('retenue_salariale') or has_nature('retenue_fiscale') or has_nature('autre_retenue')"
+    },
+    {
+      "key": "net_total",
+      "n": "11°",
+      "label": "Total de la rémunération nette à percevoir",
+      "condition": "True"
+    },
+    {
+      "key": "cnps_contribution_number",
+      "n": "12°",
+      "label": "Numéro de versement des cotisations à la CNPS (ou autre organisme)",
+      "condition": "True"
+    },
+    {
+      "key": "activity_nomenclature",
+      "n": "13°",
+      "label": "Numéro de nomenclature des activités économiques (employeurs inscrits à la Centrale des bilans)",
+      "condition": "centrale_des_bilans == True"
+    }
+  ],
+  "optional": [
+    {
+      "key": "employee_address",
+      "n": "1°",
+      "label": "Adresse du salarié (« éventuellement »)"
+    }
+  ]
+}

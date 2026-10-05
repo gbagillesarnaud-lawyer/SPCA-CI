@@ -1,0 +1,140 @@
+[
+  {
+    "param_id": "ITS_FRAIS_EMPLOI_TAUX",
+    "value": 10,
+    "unit": "% de la rémunération en numéraire",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "CGI art. 116-1° ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)",
+    "article": "116-1°",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    },
+    "note": "Limite globale d'exonération des allocations spéciales pour frais d'emploi (hors indemnités familiales, transport exonéré, transport collectif, avantages en nature)"
+  },
+  {
+    "param_id": "ITS_RETRAITE_COMP_TAUX",
+    "value": 10,
+    "unit": "% du brut imposable hors AN",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "Ordonnance n°2023-719 ; note DGI n°00026 du 3 janvier 2024, §III",
+    "article": "—",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_RETRAITE_COMP_PLAFOND",
+    "value": 320000,
+    "unit": "FCFA/mois",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "Ordonnance n°2023-719 ; note DGI n°00026 du 3 janvier 2024, §III",
+    "article": "—",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_EXO_RESTAURATION",
+    "value": 30000,
+    "unit": "FCFA/mois/salarié",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "CGI art. 116-17° ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») ; Note DGI n°01592/MBPE/DGI-DLCD du 9 mai 2022 — allocations spéciales pour frais d'emploi (doctrine fiscale 2022, p. 84-88)",
+    "article": "116-17°",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_EXO_TRANSPORT_COLLECTIF",
+    "value": 30000,
+    "unit": "FCFA/mois/salarié",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "CGI art. 116-16° ; arrêté n°2020-012/MEPS/CAB du 30 janvier 2020 ; Note DGI n°01536/MBPE/DGI-DLCD du 4 mai 2022 — avantages en nature (doctrine fiscale 2022, p. 80-83), reprise par la note DGI de 2024 (« note 0053 ») ; Note DGI n°01537/MBPE/DGI-DLCD du 4 mai 2022 — prime de transport (doctrine fiscale 2022, p. 83-84)",
+    "article": "116-16°",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_EXO_APPRENTISSAGE",
+    "value": 100000,
+    "unit": "FCFA/mois",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "Matrice SOLEX — source primaire non fournie (absente de la doctrine fiscale 2022) : SOURCE NON VÉRIFIÉE",
+    "article": "—",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_INDEMNITE_RUPTURE_FRACTION",
+    "value": 50,
+    "unit": "%",
+    "effective_from": "2024-01-01",
+    "effective_to": null,
+    "legal_source": "CGI art. 118 ; Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.1.3",
+    "article": "—",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — matrice du revenu imposable du 2026-10-02",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "param_id": "ITS_EXO_TRANSPORT",
+    "value": 25000,
+    "unit": "FCFA/mois/salarié",
+    "effective_from": "2000-01-01",
+    "effective_to": "2019-07-31",
+    "legal_source": "CGI art. 116-10°",
+    "article": "116-10°",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Doctrine DGI 2022, note n°01537 (montant légal d'origine)",
+      "date": "2026-10-03"
+    },
+    "note": "Date de début non connue : valeur d'origine du CGI, applicable aux salaires antérieurs à août 2019"
+  },
+  {
+    "param_id": "ITS_EXO_TRANSPORT",
+    "value": 30000,
+    "unit": "FCFA/mois/salarié",
+    "effective_from": "2019-08-01",
+    "effective_to": null,
+    "legal_source": "CGI art. 116-10° ; arrêté n°2020-012/MEPS/CAB du 30 janvier 2020 ; Note DGI n°01537/MBPE/DGI-DLCD du 4 mai 2022 — prime de transport (doctrine fiscale 2022, p. 83-84)",
+    "article": "116-10°",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX)",
+      "date": "2026-10-03",
+      "note": "Montant unique quelle que soit la localité"
+    }
+  }
+]

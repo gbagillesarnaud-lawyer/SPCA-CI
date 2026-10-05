@@ -1,0 +1,104 @@
+[
+  {
+    "param_id": "CNPS_RET_SAL_RATE",
+    "value": 6.3,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "Décret n°2012-1111 du 20 novembre 2012 — retraite CNPS 14 % (6,30 % salarié / 7,70 % employeur)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  },
+  {
+    "param_id": "CNPS_RET_EMP_RATE",
+    "value": 7.7,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "Décret n°2012-1111 du 20 novembre 2012 — retraite CNPS 14 % (6,30 % salarié / 7,70 % employeur)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  },
+  {
+    "param_id": "CNPS_PF_RATE",
+    "value": 5,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — prestations familiales (Rules Registry SOLEX §XXIV)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  },
+  {
+    "param_id": "CNPS_AM_RATE",
+    "value": 0.75,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — assurance maternité (Rules Registry SOLEX §XXIV)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  },
+  {
+    "param_id": "CNPS_ATMP_RATE_MIN",
+    "value": 2,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — AT/MP, taux selon le risque de l'activité : fourchette 2 %–5 % confirmée par G. Arnaud le 2026-10-02",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  },
+  {
+    "param_id": "CNPS_ATMP_RATE_MAX",
+    "value": 5,
+    "unit": "%",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — AT/MP, taux selon le risque de l'activité : fourchette 2 %–5 % confirmée par G. Arnaud le 2026-10-02",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — paramètres transmis le 2026-10-02",
+      "date": "2026-10-02",
+      "note": "Valeur confirmée par G. Arnaud le 2026-10-02 (identique au Rules Registry)"
+    },
+    "note": "Arbitrage SOLEX du 2026-10-02 : taux inchangés (retraite fixée par le décret n°2012-1111 du 20 novembre 2012 ; non modifiés par le décret n°2022-986). Date d'effet alignée au 2023-01-01, cohérente avec plancher et plafonds."
+  }
+]

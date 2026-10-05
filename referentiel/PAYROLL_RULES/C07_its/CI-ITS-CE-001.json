@@ -1,0 +1,42 @@
+{
+  "rule_id": "CI-ITS-CE-001",
+  "version": 1,
+  "name": "Contribution employeur sur salaires (taux d'usage sur base brute)",
+  "control_id": "C07",
+  "order": 18,
+  "category": "tax",
+  "jurisdiction": "CI",
+  "country": "Côte d'Ivoire",
+  "regime": "DGI",
+  "branch": "Contribution à la charge des employeurs",
+  "effective_from": "2024-01-01",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "True",
+  "expected": "assiette_fiscale_employeur() * (12 if expatriate else 2.8) / 100",
+  "rounding": "unite",
+  "observed": "employer('its')",
+  "compare": "equal",
+  "severity_if_breach": "P2",
+  "impact_type": "fiscal",
+  "error_code": "ITS-CE-001",
+  "legal_source": "CGI art. 146 ; ordonnance n°2023-719 ; note DGI n°00026 du 3 janvier 2024, §IV ; Note DGI n°01223/MBPE/DGI-DLCD du 12 avril 2022 (doctrine fiscale 2022, p. 76) (notion d'expatrié) ; Note DGI n°01224/MBPE/DGI-DLCD du 12 avril 2022 — régime fiscal des indemnités de départ (doctrine fiscale 2022, p. 77-79) §2.2",
+  "article": "146",
+  "authority": "Direction générale des Impôts",
+  "source_url": null,
+  "last_verified": "2026-10-02",
+  "last_legal_review": "2026-10-02",
+  "evidence_required": [
+    "bulletin ou état de paie (part patronale)",
+    "déclaration fiscale mensuelle"
+  ],
+  "reserve": "Taux d'usage 2,8 % (local) / 12 % (expatrié) sur le revenu brut imposable, indemnités de départ retenues pour leur totalité. Expatrié au sens fiscal : contrat expatrié visé par l'agence Emploi Jeunes, ou salarié étranger cadre/encadrant ou mieux rémunéré que les Ivoiriens de sa catégorie, binational aligné sur les étrangers, administrateur étranger (CGI art. 232).",
+  "status": "validee",
+  "human_review": false,
+  "validation": {
+    "by": "Note DGI transmise par Gilles Arnaud le 2026-10-02 (lue par vision, p. 5)",
+    "date": "2026-10-02"
+  },
+  "recommendation": "Recalculer la contribution employeur au taux d'usage sur la base brute imposable"
+}

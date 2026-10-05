@@ -1,0 +1,66 @@
+[
+  {
+    "param_id": "CMU_COTISATION_PERSONNE",
+    "value": 1000,
+    "unit": "FCFA/personne/mois",
+    "effective_from": "2017-02-22",
+    "effective_to": null,
+    "legal_source": "Décret n°2017-123 du 22 février 2017 relatif aux cotisations CMU",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "CMU_PART_SALARIE",
+    "value": 50,
+    "unit": "%",
+    "effective_from": "2017-02-22",
+    "effective_to": null,
+    "legal_source": "Décret n°2017-123 du 22 février 2017 relatif aux cotisations CMU",
+    "article": "9",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "CMU_PART_EMPLOYEUR",
+    "value": 50,
+    "unit": "%",
+    "effective_from": "2017-02-22",
+    "effective_to": null,
+    "legal_source": "Décret n°2017-123 du 22 février 2017 relatif aux cotisations CMU",
+    "article": "9",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "CMU_ENFANTS_PRIS_EN_CHARGE_MAX",
+    "value": 6,
+    "unit": "enfants",
+    "effective_from": "2017-02-22",
+    "effective_to": null,
+    "legal_source": "Décret n°2017-123 du 22 février 2017 relatif aux cotisations CMU",
+    "article": "9",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    }
+  }
+]

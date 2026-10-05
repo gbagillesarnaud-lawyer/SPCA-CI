@@ -1,0 +1,52 @@
+[
+  {
+    "param_id": "CNPS_RET_PLAFOND",
+    "value": 3375000,
+    "unit": "FCFA/mois",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — communiqué plancher/plafonds applicables au 1er janvier 2023 (revalorisation du SMIG, décret n°2022-986)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "CNPS_AUTRES_PLAFOND",
+    "value": 75000,
+    "unit": "FCFA/mois",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — communiqué plancher/plafonds applicables au 1er janvier 2023 (revalorisation du SMIG, décret n°2022-986)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    },
+    "note": "Confirmé par la matrice SOLEX (communiqué CNPS) ; le CLEISS mentionne 70 000 FCFA — non retenu."
+  },
+  {
+    "param_id": "CNPS_RET_PLANCHER",
+    "value": 75000,
+    "unit": "FCFA/mois",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "CNPS — communiqué plancher/plafonds applicables au 1er janvier 2023 (revalorisation du SMIG, décret n°2022-986)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+      "date": "2026-10-02",
+      "note": "Contre-validation par le juriste référent recommandée"
+    },
+    "note": "Plancher appliqué à l'assiette retraite, sous réserve de la règle applicable à l'assuré (temps partiel, entrée/sortie en cours de mois)"
+  }
+]

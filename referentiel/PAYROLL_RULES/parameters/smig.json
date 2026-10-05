@@ -1,0 +1,18 @@
+[
+  {
+    "param_id": "SMIG_M",
+    "value": 75000,
+    "unit": "FCFA/mois",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "legal_source": "Décret n°2022-986 du 21 décembre 2022 portant revalorisation du SMIG (abroge le décret n°2013-791 du 20 novembre 2013)",
+    "article": "1",
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Gilles Arnaud (CEO SOLEX) — copie certifiée conforme du décret transmise le 2026-10-03",
+      "date": "2026-10-03",
+      "note": "Texte vérifié : art. 1 « SMIG fixé à 75 000 F CFA à compter du 1er janvier 2023 »"
+    }
+  }
+]

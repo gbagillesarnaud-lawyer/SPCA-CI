@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "jurisdiction": "CI",
+  "sector": "*",
+  "employee_category": "*",
+  "status": "validee",
+  "human_review": false,
+  "rule_id": "CI-CMU-EMP-001",
+  "name": "CMU — part patronale",
+  "control_id": "C06",
+  "order": 17,
+  "category": "cmu",
+  "effective_from": "2017-02-22",
+  "effective_to": null,
+  "applies_when": "True",
+  "expected": "CMU_COTISATION_PERSONNE * CMU_PART_EMPLOYEUR / 100 * (1 + (1 if cmu_spouse_covered else 0) + min(cmu_children_covered, CMU_ENFANTS_PRIS_EN_CHARGE_MAX))",
+  "observed": "employer(['cmu_employee', 'cmu_employer'])",
+  "compare": "equal",
+  "severity_if_breach": "P3",
+  "impact_type": "cmu_patronal",
+  "legal_source": "Décret n°2017-123 du 22 février 2017 relatif aux cotisations CMU",
+  "article": "9",
+  "authority": "CNAM (recouvrement CNPS)",
+  "source_url": null,
+  "last_verified": null,
+  "validation": {
+    "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+    "date": "2026-10-02",
+    "note": "Contre-validation par le juriste référent recommandée"
+  },
+  "reserve": "Ayants droit déclarés (conjoint, enfants < 21 ans) : immatriculation à vérifier (CMU-006). Au-delà de 6 enfants : 100 % salarié (CMU-004/005).",
+  "recommendation": "Régulariser la cotisation CMU",
+  "error_code": "CMU-003",
+  "country": "Côte d'Ivoire",
+  "regime": "CMU",
+  "branch": "Assurance maladie",
+  "evidence_required": [
+    "bulletin",
+    "liste des ayants droit immatriculés"
+  ],
+  "last_legal_review": "2026-10-02"
+}

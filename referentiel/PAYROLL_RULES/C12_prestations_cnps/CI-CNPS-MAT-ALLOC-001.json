@@ -1,0 +1,28 @@
+{
+  "rule_id": "CI-CNPS-MAT-ALLOC-001",
+  "version": 1,
+  "name": "Allocation de maternité",
+  "control_id": "C12",
+  "order": 22,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": null,
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "True",
+  "expected": "18000 * children_born",
+  "legal_source": "CNPS — montants publiés (Rules Registry SOLEX)",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "a_completer",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "note": "Date d'effet et, le cas échéant, diviseur CNPS à renseigner ; prestation versée par la CNPS (hors contrôle de bulletin)"
+}

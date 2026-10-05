@@ -1,0 +1,130 @@
+{
+  "table_id": "revalorisation_smc_2023",
+  "status": "validee",
+  "validation": {
+    "by": "Vérifié sur l'arrêté n°0050/MEPS/CAB (scan transmis par G. Arnaud)",
+    "date": "2026-10-03"
+  },
+  "legal_source": "Arrêté n°0050/MEPS/CAB du 19 mai 2023, art. 1er",
+  "effective_from": "2023-01-01",
+  "usage": "Référence pour compléter la table smc (new_smc = base_smc × (1 + taux)). Régimes spéciaux (gens de maison, sécurité privée, dockers, maritime, enseignement laïc, sucre) : voir registre §XXVII — saisie ligne à ligne.",
+  "rows": [
+    {
+      "sector": "Banque",
+      "revaluation_rate": 0.18
+    },
+    {
+      "sector": "Assurance",
+      "revaluation_rate": 0.18
+    },
+    {
+      "sector": "Agriculture, élevage, foresterie",
+      "revaluation_rate": 0.11
+    },
+    {
+      "sector": "Production agricole",
+      "revaluation_rate": 0.11,
+      "note": "ouvriers : maintien des écarts cat. 2 à 5A avec abattement de 50 %"
+    },
+    {
+      "sector": "Pétrole — distribution",
+      "revaluation_rate": 0.1
+    },
+    {
+      "sector": "Pétrole — exploration / production",
+      "revaluation_rate": 0.1
+    },
+    {
+      "sector": "Industrie polygraphique",
+      "revaluation_rate": 0.12
+    },
+    {
+      "sector": "Industrie mécanique, alimentaire, corps gras, chimique, transport",
+      "revaluation_rate": 0.125
+    },
+    {
+      "sector": "Industrie du bois",
+      "revaluation_rate": 0.12
+    },
+    {
+      "sector": "Commerce, distribution, négoce, professions libérales",
+      "revaluation_rate": 0.11
+    },
+    {
+      "sector": "Hôtellerie / tourisme",
+      "revaluation_rate": 0.12
+    },
+    {
+      "sector": "Industrie textile",
+      "revaluation_rate": 0.13
+    },
+    {
+      "sector": "Transformation du thon",
+      "revaluation_rate": 0.15,
+      "note": "Corrigé (18 % → 15 %) : arrêté n°0050, ligne 15 — vérifié sur le scan le 2026-10-03"
+    },
+    {
+      "sector": "BTP et activités connexes",
+      "revaluation_rate": 0.15
+    },
+    {
+      "sector": "Instituts de recherche",
+      "revaluation_rate": 0.125,
+      "note": "14 % ouvriers cat. 2 et 3A et conducteurs cat. A"
+    },
+    {
+      "sector": "Transport de fonds et valeurs",
+      "revaluation_rate": 0.1
+    },
+    {
+      "sector": "Auxiliaires du transport",
+      "revaluation_rate": 0.09
+    },
+    {
+      "sector": "Transport aérien",
+      "revaluation_rate": 0.14
+    },
+    {
+      "sector": "Nettoyage et salubrité",
+      "revaluation_rate": 0.12
+    },
+    {
+      "sector": "Éducation / formation confessionnelle",
+      "revaluation_rate": 0.1
+    },
+    {
+      "sector": "Mines et carrières",
+      "revaluation_rate": 0.125
+    },
+    {
+      "sector": "Gens de maison",
+      "revaluation_rate": 0.14,
+      "note": "catégorie 2 : 18 %"
+    },
+    {
+      "sector": "Dockers (SEMPA-BMOD)",
+      "revaluation_rate": null,
+      "note": "18 % cat. 2 à 4 ; 17 % cat. 5 ; 15 % cat. 6A ; 9 % à partir de 6B"
+    },
+    {
+      "sector": "Sécurité privée",
+      "revaluation_rate": null,
+      "note": "20 % cat. 2 et 3 ; 9 % cat. 4 à 11"
+    },
+    {
+      "sector": "Industrie du sucre",
+      "revaluation_rate": 0.11,
+      "note": "ouvriers : catégories < SMIG portées à 432,7 F/h, écarts de 1,5 % de la cat. 2 à 5A"
+    },
+    {
+      "sector": "Maritime – pêche fraîche",
+      "revaluation_rate": 0.09,
+      "note": "novices : 21/18/16/14/12/9 % cat. 4 à 10 ; élèves officiers 9 %"
+    },
+    {
+      "sector": "Éducation – enseignement privé laïc",
+      "revaluation_rate": null,
+      "note": "barème 1992 : 29 % cat. 2 ; 24 % cat. 3 à 6"
+    }
+  ]
+}

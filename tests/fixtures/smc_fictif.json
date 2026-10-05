@@ -1,0 +1,14 @@
+{
+  "table_id": "smc",
+  "status": "validee",
+  "note": "TABLE FICTIVE — TESTS UNIQUEMENT",
+  "rows": [
+    {
+      "sector": "Commerce FICTIF",
+      "category": "4",
+      "new_smc": 120000,
+      "effective_from": "2023-01-01",
+      "legal_source": "FICTIF"
+    }
+  ]
+}

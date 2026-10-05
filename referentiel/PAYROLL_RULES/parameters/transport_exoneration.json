@@ -1,0 +1,53 @@
+[
+  {
+    "param_id": "TRANSPORT_EXO_ABIDJAN",
+    "value": 30000,
+    "unit": "FCFA/mois",
+    "effective_from": "2020-01-30",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB du 30 janvier 2020 ; note de service DGI n°016/MFB/DGI-DLCD du 1er juillet 2024",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {"by": "Gilles Arnaud (CEO SOLEX) — arbitrage du 2026-10-02", "date": "2026-10-02"},
+    "note": "Plafond d'exonération CNPS et ITS — District autonome d'Abidjan. Fraction excédentaire réintégrée : max(0, versé − plafond)."
+  },
+  {
+    "param_id": "TRANSPORT_EXO_BOUAKE",
+    "value": 24000,
+    "unit": "FCFA/mois",
+    "effective_from": "2020-01-30",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB du 30 janvier 2020 ; note de service DGI n°016/MFB/DGI-DLCD du 1er juillet 2024",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {"by": "Gilles Arnaud (CEO SOLEX) — arbitrage du 2026-10-02", "date": "2026-10-02"}
+  },
+  {
+    "param_id": "TRANSPORT_EXO_AUTRES",
+    "value": 20000,
+    "unit": "FCFA/mois",
+    "effective_from": "2020-01-30",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB du 30 janvier 2020 ; note de service DGI n°016/MFB/DGI-DLCD du 1er juillet 2024",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {"by": "Gilles Arnaud (CEO SOLEX) — arbitrage du 2026-10-02", "date": "2026-10-02",
+                   "note": "20 000 FCFA confirmé par G. Arnaud (texte de l'arrêté) ; la valeur de 21 000 FCFA est écartée"}
+  },
+  {
+    "param_id": "TRANSPORT_EXO_DEFAUT",
+    "value": 30000,
+    "unit": "FCFA/mois",
+    "effective_from": "2020-01-30",
+    "effective_to": null,
+    "legal_source": "Arbitrage SOLEX — valeur étalon par défaut si la localité d'emploi n'est pas renseignée",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {"by": "Gilles Arnaud (CEO SOLEX) — arbitrage du 2026-10-02", "date": "2026-10-02"},
+    "note": "Utilisée uniquement à défaut de localité ; une réserve est alors portée au rapport."
+  }
+]

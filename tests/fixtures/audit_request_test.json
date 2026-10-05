@@ -1,0 +1,291 @@
+{
+  "audit_request": {
+    "audit": {
+      "audit_id": "AUD-TEST-V02",
+      "audit_type": "bulletin_unique",
+      "payroll_period": "2026-09",
+      "jurisdiction": "CI",
+      "requester": "Tests SOLEX"
+    },
+    "employer": {
+      "legal_name": "ENTREPRISE FICTIVE SA",
+      "sector": "Commerce FICTIF",
+      "location": "Abidjan",
+      "collective_agreement": "Convention Collective Interprofessionnelle",
+      "atmp_rate": 2,
+      "centrale_des_bilans": false
+    },
+    "employee": {
+      "employee_id": "SAL-0001",
+      "position": "Comptable",
+      "category": "4",
+      "classification": "Cat. 4 FICTIVE",
+      "hire_date": {
+        "value": "2018-03-01",
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "line": null,
+        "status": "VERIFIED",
+        "confidence": 0.99
+      },
+      "contract_type": "CDI",
+      "working_time_regime": "non agricole",
+      "working_time_ratio": 100,
+      "pay_frequency": "mensuel",
+      "family_status": {
+        "married": true,
+        "children": 2,
+        "cmu_spouse_covered": false,
+        "cmu_children_covered": 0,
+        "tax_status": "marié",
+        "tax_children": 2
+      },
+      "expatriate": false
+    },
+    "payroll": {
+      "base_salary": {
+        "value": 150000,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "line": "L1",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "gross_salary": {
+        "value": 193581,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "line": null,
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "social_base": {
+        "value": 163581,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "line": null,
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "net_salary": {
+        "value": 162775,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "line": null,
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "earnings": [
+        {
+          "type": "base_salary",
+          "label": "Salaire de base",
+          "amount": 150000,
+          "page": 1,
+          "line": "L1",
+          "confidence": 0.98
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "seniority_bonus",
+          "label": "Prime d'ancienneté",
+          "amount": 9600,
+          "confidence": 0.97
+        }
+      ],
+      "allowances": [
+        {
+          "type": "transport_allowance",
+          "label": "Indemnité de transport",
+          "amount": 30000,
+          "confidence": 0.97
+        }
+      ],
+      "overtime": [
+        {
+          "type": "overtime_15",
+          "label": "HS 15 %",
+          "quantity": 4,
+          "amount": 3981,
+          "confidence": 0.95
+        }
+      ],
+      "contributions": [
+        {
+          "type": "cnps_retirement_employee",
+          "label": "CNPS retraite",
+          "base": 163581,
+          "rate": 6.3,
+          "amount": 10306,
+          "employer_amount": 12596,
+          "confidence": 0.96
+        },
+        {
+          "type": "cnps_family_employer",
+          "label": "CNPS PF (patronal)",
+          "amount": null,
+          "employer_amount": 3750,
+          "confidence": 0.96
+        },
+        {
+          "type": "cnps_maternity_employer",
+          "label": "CNPS AM (patronal)",
+          "amount": null,
+          "employer_amount": 563,
+          "confidence": 0.96
+        },
+        {
+          "type": "cnps_atmp_employer",
+          "label": "CNPS AT/MP (patronal)",
+          "amount": null,
+          "employer_amount": 1500,
+          "confidence": 0.96
+        },
+        {
+          "type": "cmu_employee",
+          "label": "CMU",
+          "amount": 500,
+          "confidence": 0.96,
+          "employer_amount": 500
+        }
+      ],
+      "taxes": [
+        {
+          "type": "its",
+          "label": "ITS",
+          "amount": 0,
+          "confidence": 0.96,
+          "employer_amount": 4580
+        }
+      ],
+      "advances": [
+        {
+          "type": "advance",
+          "label": "Avance sur salaire",
+          "amount": 20000,
+          "justification_doc": "accord_avance.pdf",
+          "confidence": 0.96
+        }
+      ],
+      "tax_base": {
+        "value": 163581,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "status": "VERIFIED",
+        "confidence": 0.98
+      }
+    },
+    "payslip_mentions": {
+      "employee_name": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "employer_name_address": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "employee_registration_number": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "payment_date": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "pay_period": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "classification": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "salary_cash": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "corps",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "bonuses_allowances": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "corps",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "overtime": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "corps",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "deductions": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "corps",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "net_total": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "pied",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      },
+      "cnps_contribution_number": {
+        "value": true,
+        "source": "bulletin_2026-09_FICTIF.pdf",
+        "page": 1,
+        "zone": "en-tête",
+        "status": "VERIFIED",
+        "confidence": 0.98
+      }
+    },
+    "documents": {
+      "payslip": [
+        {
+          "name": "bulletin_2026-09_FICTIF.pdf",
+          "quality": "bonne"
+        }
+      ],
+      "timesheets": [
+        {
+          "name": "pointage_2026-09.xlsx"
+        }
+      ]
+    },
+    "additional_context": {}
+  }
+}

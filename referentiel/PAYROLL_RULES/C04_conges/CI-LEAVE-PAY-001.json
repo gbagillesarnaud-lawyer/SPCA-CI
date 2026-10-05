@@ -1,0 +1,33 @@
+{
+  "rule_id": "CI-LEAVE-PAY-001",
+  "version": 1,
+  "name": "Allocation de congé payé",
+  "control_id": "C04",
+  "order": 14,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "1977-07-19",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "present('leave_allowance')",
+  "expected": "leave_data_reference_total / leave_data_reference_months / 30 * leave_data_calendar_days",
+  "legal_source": "Code du travail (loi n°2015-532), art. 25.7 et 31.9 ; Convention collective interprofessionnelle du 19 juillet 1977",
+  "article": "25.7",
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('leave_allowance')",
+  "compare": "at_least",
+  "severity_if_breach": "P2",
+  "impact_type": "rappel_salarie",
+  "reserve": "Assiette de référence (brut, primes, HS, avantages en nature, hors frais) fournie par le dossier",
+  "recommendation": "Recalculer l'allocation sur la rémunération moyenne de référence"
+}

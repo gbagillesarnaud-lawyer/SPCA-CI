@@ -1,0 +1,50 @@
+[
+  {
+    "param_id": "TRANSPORT_MIN_ABIDJAN",
+    "value": 30000,
+    "unit": "FCFA/mois",
+    "effective_from": "2019-08-01",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB (indemnité de transport)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+      "date": "2026-09-30",
+      "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "TRANSPORT_MIN_BOUAKE",
+    "value": 24000,
+    "unit": "FCFA/mois",
+    "effective_from": "2019-08-01",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB (indemnité de transport)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+      "date": "2026-09-30",
+      "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+    }
+  },
+  {
+    "param_id": "TRANSPORT_MIN_AUTRES",
+    "value": 20000,
+    "unit": "FCFA/mois",
+    "effective_from": "2019-08-01",
+    "effective_to": null,
+    "legal_source": "Arrêté n°2020-012/MEPS/CAB (indemnité de transport)",
+    "article": null,
+    "source_url": null,
+    "status": "validee",
+    "validation": {
+      "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+      "date": "2026-09-30",
+      "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+    }
+  }
+]

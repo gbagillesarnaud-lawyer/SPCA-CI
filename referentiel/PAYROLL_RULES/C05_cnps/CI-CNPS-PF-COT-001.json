@@ -1,0 +1,47 @@
+{
+  "rule_id": "CI-CNPS-PF-COT-001",
+  "version": 1,
+  "name": "CNPS prestations familiales — patronal",
+  "control_id": "C05",
+  "order": 16,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "2023-01-01",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "True",
+  "expected": "plafonner(assiette_cnps(), 'CNPS_AUTRES_PLAFOND') * CNPS_PF_RATE / 100",
+  "legal_source": "Code de prévoyance sociale, art. 23 ; taux et plafonds CNPS (matrice SOLEX)",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Matrice de validation CNPS–CMU SOLEX (G. Arnaud)",
+    "date": "2026-10-02",
+    "note": "Contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "employer('cnps_family_employer')",
+  "compare": "equal",
+  "severity_if_breach": "P2",
+  "impact_type": "cnps_patronal",
+  "recommendation": "Régulariser la cotisation PF",
+  "historique": [
+    {
+      "date": "2026-10-02",
+      "motif": "plafond unique « autres branches » (paramètre SOLEX)"
+    }
+  ],
+  "country": "Côte d'Ivoire",
+  "regime": "CNPS",
+  "branch": "Prestations familiales",
+  "error_code": "PAY-002",
+  "evidence_required": [
+    "bulletin",
+    "état des cotisations / déclaration CNPS"
+  ],
+  "last_legal_review": "2026-10-02"
+}

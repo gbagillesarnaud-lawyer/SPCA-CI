@@ -1,0 +1,33 @@
+{
+  "rule_id": "CI-PAY-EXPAT-001",
+  "version": 1,
+  "name": "Indemnité d'expatriation internationale",
+  "control_id": "C02",
+  "order": 8,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "1977-07-19",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "expatriate == True",
+  "expected": "base_salary * 40 / 100",
+  "legal_source": "Convention Collective Interprofessionnelle du 19 juillet 1977",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('expatriation_allowance')",
+  "absent_as_zero": true,
+  "compare": "at_least",
+  "severity_if_breach": "P2",
+  "impact_type": "rappel_salarie",
+  "recommendation": "Verser l'indemnité = 4/10 du salaire de base"
+}

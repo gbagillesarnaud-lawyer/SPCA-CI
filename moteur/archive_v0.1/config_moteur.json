@@ -1,0 +1,15 @@
+{
+  "_note": "Paramètres techniques du moteur — à valider par SOLEX. Aucune valeur juridique ici.",
+  "tolerance_ecart": 1,
+  "familles_requises": [
+    "MINIMUM",
+    "CNPS",
+    "CMU",
+    "ITS"
+  ],
+  "criticite_par_defaut": {
+    "CT-A01": "P2",
+    "CT-A02": "P3",
+    "CT-A03": "P2"
+  }
+}

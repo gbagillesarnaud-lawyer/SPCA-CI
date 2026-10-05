@@ -1,0 +1,108 @@
+{
+  "audit": {
+    "id_audit": "AUD-TEST-001",
+    "entreprise": "ENT-FICTIVE",
+    "periode": "2025-06",
+    "juridiction": "CI",
+    "date_reference": "2025-07-15"
+  },
+  "employeur": {
+    "id": "ENT-FICTIVE",
+    "convention_collective": "FICTIVE"
+  },
+  "salarie": {
+    "id": "SAL-0001",
+    "fonction": "Comptable",
+    "categorie": "FICTIVE",
+    "classification": "FICTIVE",
+    "date_embauche": "2020-03-01",
+    "type_contrat": "CDI",
+    "taux_temps_travail": 100
+  },
+  "rubriques": [
+    {
+      "code": "SB",
+      "libelle": "Salaire de base",
+      "nature": "gain",
+      "montant": 200000,
+      "source": {
+        "page": 1,
+        "ligne": 1
+      },
+      "confiance": 0.98
+    },
+    {
+      "code": "PRIME",
+      "libelle": "Prime",
+      "nature": "gain",
+      "montant": 50000,
+      "source": {
+        "page": 1,
+        "ligne": 2
+      },
+      "confiance": 0.97
+    },
+    {
+      "code": "TRANSP",
+      "libelle": "Indemnité de transport",
+      "nature": "gain",
+      "montant": 20000,
+      "source": {
+        "page": 1,
+        "ligne": 3
+      },
+      "confiance": 0.97
+    },
+    {
+      "code": "CNPS",
+      "libelle": "Cotisation",
+      "nature": "retenue_salariale",
+      "base": 250000,
+      "taux": 5,
+      "montant": 12500,
+      "montant_patronal": 25000,
+      "source": {
+        "page": 1,
+        "ligne": 4
+      },
+      "confiance": 0.95
+    },
+    {
+      "code": "CMU",
+      "libelle": "CMU",
+      "nature": "retenue_salariale",
+      "montant": 2000,
+      "source": {
+        "page": 1,
+        "ligne": 5
+      },
+      "confiance": 0.95
+    },
+    {
+      "code": "ITS",
+      "libelle": "Impôt",
+      "nature": "retenue_fiscale",
+      "montant": 15000,
+      "source": {
+        "page": 1,
+        "ligne": 6
+      },
+      "confiance": 0.95
+    },
+    {
+      "code": "AVANCE",
+      "libelle": "Avance",
+      "nature": "autre_retenue",
+      "montant": 10000,
+      "source": {
+        "page": 1,
+        "ligne": 7
+      },
+      "confiance": 0.95
+    }
+  ],
+  "totaux": {
+    "brut": 270000,
+    "net_a_payer": 230500
+  }
+}

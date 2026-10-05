@@ -1,0 +1,64 @@
+{
+  "_aide": "Copier ce fichier, renseigner les valeurs à partir du texte officiel, puis passer statut à 'validee' après validation du juriste référent. Les fichiers commençant par _ sont ignorés.",
+  "id": "R-XXX-01",
+  "version": 1,
+  "famille": "CNPS | CMU | ITS | MINIMUM | AUTRE",
+  "controle": "CT-S01",
+  "intitule": "[intitulé de la règle]",
+  "type": "taux_sur_assiette | bareme_progressif | minimum",
+  "validite": {
+    "debut": "AAAA-MM-JJ",
+    "fin": null
+  },
+  "champ_application": {
+    "categories": [],
+    "types_contrat": []
+  },
+  "assiette": {
+    "natures": [
+      "gain"
+    ],
+    "exclure": [],
+    "rubriques": []
+  },
+  "parametres": {
+    "taux_salarial": null,
+    "taux_patronal": null,
+    "plafond": null,
+    "arrondi": "unite",
+    "tranches": [
+      {
+        "de": 0,
+        "a": null,
+        "taux": 0
+      }
+    ],
+    "abattement_pct": null,
+    "montant_minimum": null,
+    "donnees_requises": []
+  },
+  "cible": {
+    "rubrique": "[code de rubrique du bulletin comparé]"
+  },
+  "criticite_si_ecart": "P2",
+  "correction": "[action corrective type]",
+  "source": {
+    "texte": "[texte officiel]",
+    "article": "[article]",
+    "autorite": "[autorité émettrice]",
+    "version_texte": "[version]",
+    "date_effet": "AAAA-MM-JJ"
+  },
+  "statut": "brouillon",
+  "validation": {
+    "juriste": null,
+    "date": null
+  },
+  "historique": [
+    {
+      "date": "AAAA-MM-JJ",
+      "auteur": "",
+      "motif": "création"
+    }
+  ]
+}

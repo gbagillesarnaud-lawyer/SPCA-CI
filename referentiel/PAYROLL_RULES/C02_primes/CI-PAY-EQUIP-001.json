@@ -1,0 +1,32 @@
+{
+  "rule_id": "CI-PAY-EQUIP-001",
+  "version": 1,
+  "name": "Indemnité d'équipement",
+  "control_id": "C02",
+  "order": 9,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "1977-07-19",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "present('equipment_allowance')",
+  "expected": "(700 if married else 600) * SMIG_H + 100 * SMIG_H * children",
+  "legal_source": "Convention Collective Interprofessionnelle du 19 juillet 1977",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('equipment_allowance')",
+  "compare": "at_least",
+  "severity_if_breach": "P3",
+  "impact_type": "rappel_salarie",
+  "recommendation": "Recalculer selon situation familiale (multiples du SMIG horaire)"
+}

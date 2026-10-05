@@ -1,0 +1,33 @@
+{
+  "rule_id": "CI-PAY-GRAT-001",
+  "version": 1,
+  "name": "Gratification de fin d'année",
+  "control_id": "C02",
+  "order": 5,
+  "category": null,
+  "jurisdiction": "CI",
+  "effective_from": "1977-07-19",
+  "effective_to": null,
+  "sector": "*",
+  "employee_category": "*",
+  "applies_when": "present('year_end_bonus')",
+  "expected": "SMC * 75 / 100 * SERVICE_MONTHS_YEAR / 12",
+  "legal_source": "Convention Collective Interprofessionnelle du 19 juillet 1977",
+  "article": null,
+  "authority": null,
+  "source_url": null,
+  "last_verified": null,
+  "status": "validee",
+  "validation": {
+    "by": "Rules Registry SOLEX — version septembre 2026 (transmis par Gilles Arnaud, CEO)",
+    "date": "2026-09-30",
+    "note": "Intégré tel que transmis ; contre-validation par le juriste référent recommandée"
+  },
+  "human_review": false,
+  "observed": "amount('year_end_bonus')",
+  "compare": "at_least",
+  "severity_if_breach": "P2",
+  "impact_type": "rappel_salarie",
+  "reserve": "Prorata calculé en mois complets de service dans l'année ; un décompte journalier peut être retenu",
+  "recommendation": "Compléter la gratification au minimum de 3/4 du SMC (proratisé)"
+}

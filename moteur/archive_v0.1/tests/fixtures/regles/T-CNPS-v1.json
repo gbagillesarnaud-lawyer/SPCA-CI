@@ -1,0 +1,36 @@
+{
+  "id": "T-CNPS",
+  "version": 1,
+  "famille": "CNPS",
+  "controle": "CT-S01",
+  "intitule": "Cotisation FICTIVE v1",
+  "type": "taux_sur_assiette",
+  "validite": {
+    "debut": "2020-01-01",
+    "fin": "2024-12-31"
+  },
+  "assiette": {
+    "natures": [
+      "gain"
+    ],
+    "exclure": [
+      "TRANSP"
+    ]
+  },
+  "parametres": {
+    "taux_salarial": 5,
+    "taux_patronal": 10,
+    "plafond": 500000
+  },
+  "cible": {
+    "rubrique": "CNPS"
+  },
+  "source": {
+    "texte": "TEXTE FICTIF — TEST UNIQUEMENT",
+    "article": "art. FICTIF",
+    "autorite": "SOLEX TEST",
+    "version_texte": "test",
+    "date_effet": "2020-01-01"
+  },
+  "statut": "validee"
+}
